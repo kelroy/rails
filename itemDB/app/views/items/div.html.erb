@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+		<title>Tables kill kittens</title>
+		<link href="stylesheets/reset.css" rel="stylesheet" media="screen" />
+		<link href="stylesheets/style.css" rel="stylesheet" media="screen" />
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="h1">
+				<a href="/items/div">
+					<%= @text -%>
+				</a>
+			</div>
+			<div class="top">
+				<a href="/items/one" class="a cell">
+					<span class="lbl">One</span>
+				</a>
+				<a href="/items/two" class="b cell">
+					<span class="lbl">Two</span>
+				</a>
+				<a href="/items/three" class="c cell">
+					<span class="lbl">Three</span>
+				</a>
+			</div>
+			<div class="bottom">
+				<a href="/items/four" class="d cell">
+					<span class="lbl">Four</span>
+				</a>
+				<a href="/items/five" class="e cell">
+					<span class="lbl">Five</span>
+				</a>
+				<a href="/items/six" class="f cell">
+					<span class="lbl">Six</span>
+				</a>
+			</div>
+			<div class="h2">
+				Current Time and Date:<br /><%= Time.now -%>
+			</div>
+		</div>
+	</body>
+	
+	
+</html>
